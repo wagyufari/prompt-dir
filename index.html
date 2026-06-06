@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promptdir - Prompts, polished.</title>
+  <meta name="description" content="A quiet place for image prompts that are ready the moment you need them.">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Link Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="public/3d-glossy-black.webp" alt="" class="hero-image" fetchpriority="high">
+      <div class="hero-overlay-bottom"></div>
+      <div class="hero-overlay-top"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <!-- Sparkles Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z"/>
+            <path d="m5 3 1 2.5L8.5 6 6 7 5 9.5 4 7 1.5 6 4 5Z"/>
+            <path d="m19 17 1 2.5 2.5.5-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1Z"/>
+          </svg>
+          Promptdir
+        </div>
+        <h1 class="hero-title">Prompts, polished.</h1>
+        <p class="hero-description">
+          A quiet place for image prompts that are ready the moment you need them.
+        </p>
+      </div>
+    </section>
+
+    <!-- Prompts Grid -->
+    <section class="grid" id="prompt-grid">
+      <!-- Injected by app.js -->
+    </section>
+
+    <!-- Toast status alert -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <!-- Load Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
